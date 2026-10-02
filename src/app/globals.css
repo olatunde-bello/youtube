@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Calm, dark-first palette. Colours are tokens so they stay consistent. */
+@theme {
+  --color-bg: #0e1116;
+  --color-panel: #161b22;
+  --color-panel-2: #1c222b;
+  --color-line: #2a313c;
+  --color-text: #e6e8eb;
+  --color-muted: #9aa4b2;
+  --color-good: #3fb950;
+  --color-bad: #f85149;
+  --color-info: #58a6ff;
+  --color-warn: #d29922;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
